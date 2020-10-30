@@ -25,11 +25,13 @@ O teste consta em desenvolver uma aplicação de controle de cliente e seus resp
 	- valor: float
 	- prazo: date
 	- status do projeto (em analise, reprovado, aprovado): string ou enum
-	- cliente: um **Projeto** deve conter uma relação com um **Cliente**, assim um **Cliente** pode ter varios **Projeto**
+	- cliente: um **Projeto** deve conter uma relação com um **Cliente**, assim como um **Cliente** pode ter varios **Projeto**
 
 **[Desejável]**
 
 - Ultilizar POO (Programação orientada a objetos).
+- Validação do cadastro nao permitindo cadastrar sem os campos obrigatórios informado.
+- Validação do numero de CNPJ.
 - Verificar a data de prazo do **Projeto**, para informar ao usuário se o mesmo se encontra atrasado.
 - Ter um sistema de autenticação para ter acesso as páginas da aplicação.
 - Relatório, ter a opção de exportar a listagem de clientes em PDF e XLS.
