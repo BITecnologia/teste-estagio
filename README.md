@@ -12,16 +12,16 @@ O teste consta em desenvolver uma aplicação de controle de cliente e seus resp
 - Armazenar as informações no bando de dados Mysql
 - O Sistema deve conter um CRUD (listagem, cadastro, edição  e exclusão) de **Cliente** com os seguintes campos obrigatório:
 	- id: identificador interno do sistema [int e autoincremente];
-	- razao social: string
+	- razão social: string
 	- cnpj: string
 	- nome do contato: string
 	- email do contato: string
 	- telefone do contato: string
-	- endereco: string
+	- endereço: string
 - O Sistema deve conter um CRUD (listagem, cadastro, edição e exclusão) de **Projetos** com os seguintes campos obrigatório:
 	- id: identificador interno do sistema [int e autoincremente];
 	- nome do projeto: string
-	- descricao do projeto: text
+	- descrição do projeto: text
 	- valor: float
 	- prazo: date
 	- status do projeto (em analise, reprovado, aprovado): string ou enum
@@ -30,6 +30,9 @@ O teste consta em desenvolver uma aplicação de controle de cliente e seus resp
 **[Desejável]**
 
 - Ultilizar POO (Programação orientada a objetos).
-- Ter um sistema de autenticação para ter acesso as paginas da aplicação.
-- Relatorio, ter a opção de exportar a listagem de clientes em PDF e XLS.
-- Ultilizar GIT para controle de versionamento do codigo da aplicação.
+- Verificar a data de prazo do **Projeto**, para informar ao usuário se o mesmo se encontra atrasado.
+- Ter um sistema de autenticação para ter acesso as páginas da aplicação.
+- Relatório, ter a opção de exportar a listagem de clientes em PDF e XLS.
+- Ultilizar GIT para controle de versionamento do código da aplicação.
+
+***Obs:** Você está livre para adicionar novos campos e funcionalidades a aplicação caso ache necessário*
