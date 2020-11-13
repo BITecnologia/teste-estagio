@@ -8,8 +8,8 @@ O teste consta em desenvolver uma aplicação de controle de cliente e seus resp
 ### Requisitos
 
 **[Obrigatório]**
-- Sistema deve ser desenvolvido com a liguagem de programação que desejar
-- Armazenar as informações no bando de dados Mysql
+- Sistema deve ser desenvolvido com a linguagem de programação que desejar
+- Armazenar as informações em um banco de dados
 - O Sistema deve conter um CRUD (listagem, cadastro, edição  e exclusão) de **Cliente** com os seguintes campos obrigatório:
 	- id: identificador interno do sistema [int e autoincremente];
 	- razão social: string
@@ -29,12 +29,12 @@ O teste consta em desenvolver uma aplicação de controle de cliente e seus resp
 
 **[Desejável]**
 
-- Ultilizar POO (Programação orientada a objetos).
-- Validação do cadastro nao permitindo cadastrar sem os campos obrigatórios informado.
-- Validação do numero de CNPJ.
+- Utilizar POO (Programação orientada a objetos).
+- Validação do cadastro não permitindo cadastrar sem os campos obrigatórios informado.
+- Validação do número de CNPJ.
 - Verificar a data de prazo do **Projeto**, para informar ao usuário se o mesmo se encontra atrasado.
 - Ter um sistema de autenticação para ter acesso as páginas da aplicação.
 - Relatório, ter a opção de exportar a listagem de clientes em PDF e XLS.
-- Ultilizar GIT para controle de versionamento do código da aplicação.
+- Utilizar GIT para controle de versionamento do código da aplicação.
 
 ***Obs:** Você está livre para adicionar novos campos e funcionalidades a aplicação caso ache necessário*
