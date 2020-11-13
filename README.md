@@ -29,6 +29,7 @@ O teste consta em desenvolver uma aplicação de controle de cliente e seus resp
 
 **[Desejável]**
 
+- Interface do sistema agradável e com uma boa experiência ao usuário
 - Utilizar POO (Programação orientada a objetos).
 - Validação do cadastro não permitindo cadastrar sem os campos obrigatórios informado.
 - Validação do número de CNPJ.
