@@ -8,7 +8,7 @@ O teste consta em desenvolver uma aplicação de controle de cliente e seus resp
 ### Requisitos
 
 **[Obrigatório]**
-- Sistema deve ser desenvolvido com a liguagem de programação PHP
+- Sistema deve ser desenvolvido com a liguagem de programação que desejar
 - Armazenar as informações no bando de dados Mysql
 - O Sistema deve conter um CRUD (listagem, cadastro, edição  e exclusão) de **Cliente** com os seguintes campos obrigatório:
 	- id: identificador interno do sistema [int e autoincremente];
